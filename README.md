@@ -18,6 +18,6 @@ Train Schedule
 
 ---
 
-####Portfolio
-* **-Problem**: Font Awesome Icons lagged and pushed text to the right.
-* **-Solution**: Ruled out every possible reason that this may be happening. The template was using an older version of font awesome. After realizing this, I copied the correct version link to my html thus solved this problem. 
+## Portfolio
+* **Problem**: Font Awesome Icons lagged and pushed text to the right.
+* **Solution**: Ruled out every possible reason that this may be happening. The template was using an older version of font awesome. After realizing this, I copied the correct version link to my html thus solved this problem. 
