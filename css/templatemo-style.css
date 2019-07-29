@@ -5,7 +5,10 @@ Volton Template
 http://www.templatemo.com/tm-441-volton
 
 */
-
+.indent {
+  /* margin-left: 40px; */
+  text-align: center;
+}
 
 
 @font-face {
