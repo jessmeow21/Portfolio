@@ -252,10 +252,9 @@ h1, h2, h3, h4, h5 {
 }
 
 h4.widget-title {
-  font-size: 16px;
   font-family: 'robotobold';
   text-transform: uppercase;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 hr {
@@ -265,12 +264,12 @@ hr {
   width: 100%;
   height: 4px;
   background: #dddddd;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 0;
 }
 
 .page-section {
-  padding-top: 80px;
+  padding-top: 30px;
 }
 
 /*---------------------------------------------------------
