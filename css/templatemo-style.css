@@ -359,7 +359,7 @@ h3.profile-title {
 }
 
 .responsive-header {
-  background: #5f6d7e;
+  background: #3F3250;
   text-align: center;
 }
 @media screen and (max-width: 992px) {
@@ -413,7 +413,7 @@ h3.profile-title {
   display: block;
   padding: 20px;
   margin-top: 30px;
-  background: #6cc0f7;
+  background: #3F3250;
   color: white;
   font-size: 18px;
 }
