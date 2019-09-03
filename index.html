@@ -1,282 +1,280 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-<!--<![endif]-->
+<html lang="en">
+<title>Jessica's Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="newstyle.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-third img{margin-bottom: -6px;  cursor: pointer}
+.w3-third img:hover{opacity: 1}
+</style>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Jessica's Portfolio</title>
-    <meta name="description" content="">
-    <!-- 
-    	Volton Template
-    	http://www.templatemo.com/tm-441-volton
-        -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/templatemo-style.css">
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
-</head>
 
-<body>
-    <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+<body class="w3-light-grey w3-content" style="max-width:1600px">
 
-    <div class="responsive-header visible-xs visible-sm">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="top-section">
-                        <div class="profile-image">
-                            <img src=""
-                                alt="Jessica">
-                        </div>
-                        <div class="profile-content">
-                            <h3 class="profile-title">Jessica Maria Sulaiman</h3>
-                            <p class="profile-description">Web Developer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a href="#" class="toggle-menu"><i class="fa fa-bars"></i></a>
-            <div class="main-navigation responsive-menu">
-                <ul class="navigation">
-                    <li><a href="#top"><i class="fas fa-door-open"></i></i>Welcome</a></li>
-                    <li><a href="#about"><i class="fas fa-user"></i>About Me</a></li>
-                    <li><a href="#projects"><i class="fas fa-briefcase"></i>Portfolio</a></li>
-                    <li><a href="#tools"><i class="fas fa-hammer"></i>Tool Set</a></li>
-                    <li><a href="#contact"><i class="fa fa-envelope"></i>Contact</a></li>
-                </ul>
-            </div>
-        </div>
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+  <h3 class="w3-padding-64 w3-center"><b><br></b></h3>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a> 
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a> 
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+  <div class="social-icons">
+      
+          <a href="https://www.linkedin.com/in/jessicamsulaiman/"><i class="fab fa-linkedin" id="icons"></i></a>
+          <a href="https://github.com/jessmeow21"><i class="fab fa-github" id="icons"></i></a>
+          <a href="#"><i class="fab fa-youtube" id="icons"></i></a>
+
+   
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
+  <span class="w3-left w3-padding">Jessica Sulaiman</span>
+  <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Push down content on small screens --> 
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b>Jessica Sulaiman</b></h1>
+    <h1 class="w3-xxxlarge w3-text-blue"><b>Web Developer</b></h1>
+    <hr style="width:50px;border:5px solid rgb(19, 110, 228)" class="w3-round">
+  </div>
+
+
+  
+<!-- First Photo Grid-->
+<div class="w3-row-padding">
+  <div class="w3-third w3-container w3-margin-bottom">
+    <img src="assets/img/MacBook Air PSD.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+    <div class="w3-container w3-white">
+      <p><b>Date Night</b></p>
+
+      <p>Plan your date for tonight.</p>
+      <li><a href="https://martinakram.github.io/Date-Night/" class="button">Deployed
+        Site
+      </a></li>
+      <li><a href="https://github.com/MartinAkram/Date-Night" class="button">Github
+        Repo</a></li>
+        <p></p>
     </div>
+  </div>
+  <div class="w3-third w3-container w3-margin-bottom">
+    <img src="assets/img/mock_gif.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+    <div class="w3-container w3-white">
+      <p><b>Giphy App</b></p>
+      <p>Request Gifs.</p>
 
-    <!-- SIDEBAR -->
-    <div class="sidebar-menu hidden-xs hidden-sm">
-        <div class="top-section">
-            <div class="profile-image">
-                <img src=""
-                    alt="Jessica">
-            </div>
-            <h3 class="profile-title">Jessica Maria Sulaiman</h3>
-            <p class="profile-description">Web Developer</p>
-        </div> <!-- top-section -->
-        <div class="main-navigation">
-            <ul class="navigation">
-                <li><a href="#top"><i class="fas fa-door-open"></i>Welcome</a></li>
-                <li><a href="#about"><i class="fas fa-user"></i>About Jess</a></li>
-                <li><a href="#projects"><i class="fas fa-briefcase"></i>Portfolio</a></li>
-                <li><a href="#tools"><i class="fas fa-hammer"></i>Tool Set</a></li>
-                <li><a href="#contact"><i class="fas fa-address-book"></i>Contact</a></li>
-            </ul>
-        </div> <!-- .main-navigation -->
-        <div class="social-icons">
-            <ul>
-                <li><a href="https://www.linkedin.com/in/jessicamsulaiman/"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/jessmeow21"><i class="fab fa-github"></i></a></li>
-                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-
-            </ul>
-        </div> <!-- .social-icons -->
-    </div> <!-- .sidebar-menu -->
-
-
-    <div class="banner-bg" id="top">
-        <div class="banner-overlay"></div>
-        <div class="welcome-text">
-            <h2>Welcome</h2>
-            <h5></h5>
-        </div>
+      <li><a href="https://jessmeow21.github.io/GifTastic/" class="button">Deployed
+        Site</a></li>
+      <li><a href="https://github.com/jessmeow21/GifTastic" class="button">Github
+        Repo</a></li>
+        <p></p>
     </div>
+  </div>
+  <div class="w3-third w3-container">
+    <img src="assets/img/train_mockpng.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+    <div class="w3-container w3-white">
+      <p><b>Train Schedule</b></p>
+      <p>Track your train's schedule.</p>
 
-    <!-- MAIN CONTENT -->
-    <div class="main-content">
-        <div class="fluid-container">
-
-            <div class="content-wrapper">
-
-                <!-- ABOUT -->
-                <div class="page-section" id="about">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h4 class="widget-title">About Me</h4>
-                            <div class="about-image">
-                                <img src="img/code banner.jpg" alt="about me">
-                            </div>
-                            <p class="indent">I am <strong>Jessica Maria Sulaiman</strong>.
-                                Welcome to my portfolio. I am a web developer/designer and I enjoy creating, building, and developing everyday no matter how big or small of an idea. At heart, I enjoy being creative and curious especially in the area of technology and arts. I look forward to the next project to help someone’s online brand stand out and reach their goals. I'm happy to contribute my coding and design expertise to make a positive difference.<p>
-                            <hr>
-                        </div>
-                    </div> <!-- #about -->
-                </div>
-
-                <!-- PROJECTS -->
-                <div class="page-section" id="projects">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h4 class="widget-title">Projects</h4>
-
-                            <p>Hover cursor over the images.</p>
-                        </div>
-                    </div>
-                    <div class="row projects-holder">
-                        <div class="col-md-4 col-sm-6">
-                            <div class="project-item">
-                                <img src="img/MacBook Air PSD.png" alt="">
-                                <div class="project-hover">
-                                    <div class="inside">
-                                        <h5><a href="https://martinakram.github.io/Date-Night/" class="colortxt">Date
-                                                Night App</a></h5>
-                                       
-                                        <li><a href="https://martinakram.github.io/Date-Night/" class="button">Deployed
-                                                Site
-                                            </a></li>
-                                        <li><a href="https://github.com/MartinAkram/Date-Night" class="button">Github
-                                                Repo</a></li>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="project-item">
-                                <img class="giphy" src="img/mock_gif.png" alt="">
-
-                                <div class="project-hover">
-                                    <div class="inside">
-                                        <h5><a href="https://jessmeow21.github.io/GifTastic/">Giphy App</a></h5>
-                                        
-                                        <li><a href="https://jessmeow21.github.io/GifTastic/" class="button">Deployed
-                                                Site</a></li>
-                                        <li><a href="https://github.com/jessmeow21/GifTastic" class="button">Github
-                                                Repo</a></li>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="project-item">
-                                <img src="img/train_mockpng.png"
-                                    alt="">
-                                <div class="project-hover">
-                                    <div class="inside">
-                                        <h5><a href="https://jessmeow21.github.io/Train-Scheduler">Train Schedule
-                                            </a></h5>
-
-                                        <li><a href="https://jessmeow21.github.io/Train-Scheduler/"
-                                                class="button">Deployed Site</a>
-                                        </li>
-                                        <li><a href="https://github.com/jessmeow21/Train-Scheduler"
-                                                class="button">Github Repo</a></li>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-4 col-sm-6">
-                            <div class="project-item">
-                                <img src="img/batmantrivia_mock.png" alt="">
-                                <div class="project-hover">
-                                    <div class="inside">
-                                        <h5><a href="#">Batman Trivia</a></h5>
-
-                                        <li><a href="https://jessmeow21.github.io/Trivia_Game/"
-                                                class="button">Deployed Site</a>
-                                        </li>
-                                        <li><a href="https://github.com/jessmeow21/Trivia_Game"
-                                                class="button">Github Repo</a></li>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="project-item">
-                                <img src="img/friendfinder_mock.png" alt="">
-                                <div class="project-hover">
-                                    <div class="inside">
-                                        <h5><a href="https://cryptic-caverns-40907.herokuapp.com/">Friend Finder</a></h5>
-                                        <li><a href="https://cryptic-caverns-40907.herokuapp.com/" class="button">Deployed
-                                            Site</a></li>
-                                    <li><a href="https://github.com/jessmeow21/Friend-Finder" class="button">Github
-                                                Repo</a></li>
-                                    </div>
-                                </div> 
-                            </div>
-                        </div>
-
-                        
-                    </div> <!-- .projects-holder -->
-                </div>
-                <hr>
-                <!-- My Tools -->
-
-
-                <div class="page-section" id="tools">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <h4 class="widget-title">Tool Set</h4>
-                            <ol>
-                                <li>HTML/CSS</li>
-                                <li>Bootstrap, Materialize CSS</li>
-                                <li>Javascript</li>
-                                <li>jQuery</li>
-                                <li>Version Control: Git</li>
-                            </ol>
-                        </div>
-
-                        <div class="col-sm-6">
-                            <h4 class="widget-title">Other Tools</h4>
-                            <ol>
-                                <li>WordPress</li>
-                                <li>Photoshop</li>
-                                <li>InDesign</li>
-                                <li>Final Cut Pro</li>
-                                <li>Adobe XD</li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-
-                <!-- CONTACT -->
-                <div class="page-section" id="contact">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h4 class="widget-title">Contact</h4>
-                        
-                        <p class="white"><span aria-hidden="true" class="fa fa-phone"></span> Phone: (267)760-2031</p>
-                        <p class="white"><span aria-hidden="true" class="fa fa-envelope"></span> Email: <a href=""
-                                class="link-dec"> jessica.sulaiman21@gmail.com</a></p>
-                        <p class="white"><span aria-hidden="true" class="fas fa-file"></span>   Resume:<a
-                                href="Jessica M Sulaiman Web Dev Resume.pdf"> Click here for Resume PDF</a></p>
-                            </div>
-                    </div>
-                </div>
-                <hr>
-
-                <div class="row" id="footer">
-                    <div class="col-md-12 text-center">
-                        <p class="copyright-text">Copyright &copy; 2019 Fancy Code</p>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
+      <li><a href="https://jessmeow21.github.io/Train-Scheduler/" class="button">Deployed Site</a>
+      </li>
+      <li><a href="https://github.com/jessmeow21/Train-Scheduler" class="button">Github Repo</a></li>
+        <p></p>
     </div>
-    <script src="js/vendor/jquery-1.10.2.min.js"></script>
-    <script src="js/min/plugins.min.js"></script>
-    <script src="js/min/main.min.js"></script>
+  </div>
+</div>
+
+
+ <!-- Second Photo Grid-->
+ <div class="w3-row-padding">
+  <div class="w3-third w3-container w3-margin-bottom">
+    <img src="assets/img/batmantrivia_mock.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+    <div class="w3-container w3-white">
+      <p><b>Batman Trivia Game</b></p>
+      <p>Test your Batman knowledge.</p>
+      <li><a href="https://jessmeow21.github.io/Trivia_Game/" class="button">Deployed Site</a>
+      </li>
+      <li><a href="https://github.com/jessmeow21/Trivia_Game" class="button">Github Repo</a></li>
+        <p></p>
+    </div>
+  </div>
+  <div class="w3-third w3-container w3-margin-bottom">
+    <img src="assets/img/friendfinder_mock.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+    <div class="w3-container w3-white">
+      <p><b>Friend Finder</b></p>
+      <p>Find someone like you.</p>
+      <li><a href="https://cryptic-caverns-40907.herokuapp.com/" class="button">Deployed
+          Site</a></li>
+      <li><a href="https://github.com/jessmeow21/Friend-Finder" class="button">Github
+              Repo</a></li>
+              <p></p>
+    </div>
+  </div>
+  <div class="w3-third w3-container">
+    <img src="assets/img/crystalgame.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+    <div class="w3-container w3-white">
+      <p><b>Friend Finder</b></p>
+      <p>Find someone like you.</p>
+      <li><a href="https://jessmeow21.github.io/Crystal-Game/" class="button">Deployed
+          Site</a></li>
+      <li><a href="https://github.com/jessmeow21/Crystal-Game" class="button">Github
+              Repo</a></li>
+              <p></p>
+    </div>
+  </div>
+</div>
+
+  
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- About section -->
+  <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
+    <h4><b>About Me</b></h4>
+    <!-- <img src="/w3images/avatar_hat.jpg" alt="Me" class="w3-image w3-padding-32" width="600" height="650"> -->
+    <div class="w3-content w3-justify" style="max-width:600px">
+      <p class="indent">I am <strong>Jessica Maria Sulaiman</strong>. I am a web developer/designer and I enjoy creating, building, and developing everyday no matter how big or small of an idea. At heart, I enjoy being creative
+        and curious especially in the area of technology and arts. I look forward to the next project to help someone’s online brand stand out and reach their goals. I'm happy to contribute my coding and design expertise to make
+        a positive difference.
+        <p>
+
+      <hr class="w3-opacity">
+    
+      <table style="width:100%">
+          <tr>
+            <th><h4 class="w3-padding-16">Technical Skills</h4></th>
+            <!-- <th><h4 class="w3-padding-16">Other Skills</h4></th>  -->
+        
+          </tr>
+          <tr>
+            <td>HTML/CSS</td>
+            <td>Photoshop</td>
+        
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Photography</td>
+        
+          </tr>
+          <tr>
+            <td>jQuery</td>
+            <td>Adobe XD</td>
+          </tr>
+          <tr>
+            <td>Bootstrap</td>
+            <td>Git</td>
+          </tr>
+        </table>
+
+      <button class="w3-button w3-light-grey w3-padding-large w3-margin-top w3-margin-bottom" input type=button onclick="window.open('assets/Jessica M Sulaiman Web Dev Resume.pdf'); return true;">View Resume</button>
+       
+        
+    </div>
+  </div>
+
+  <!-- Contact section -->
+  
+  <div class="w3-container w3-padding-large w3-light-grey">
+    <h4 id="contact"><b>Contact Me</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>jessica.sulaiman21@gmail.com</p>
+      </div>
+      <div class="w3-third w3-pink">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Philadelphia, PA</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p>(267)760-2031</p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+  
+  </div>
+
+  <!-- Footer -->
+  <!-- <footer class="w3-container w3-padding-32 w3-grey">  
+    <div class="w3-row-padding">
+      <div class="w3-third">
+        <h3>INFO</h3>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>      
+      </div>
+    
+      <div class="w3-third">
+        <h3>BLOG POSTS</h3>
+        <ul class="w3-ul">
+          <li class="w3-padding-16 w3-hover-black">
+            <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Lorem</span><br>
+            <span>Sed mattis nunc</span>
+          </li>
+          <li class="w3-padding-16 w3-hover-black">
+            <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Ipsum</span><br>
+            <span>Praes tinci sed</span>
+          </li> 
+          
+        </ul>
+      </div>
+
+      <div class="w3-third">
+        
+      </div>
+    </div>
+  </footer> -->
+  
+  <div class="w3-black w3-center w3-padding-24"><a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">Copyright 2019</a></div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+</script>
+
 
 </body>
-
 </html>
