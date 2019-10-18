@@ -276,7 +276,8 @@ a {
 
 /* contact page */
 .form-control {
-    margin-top: 50px;
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
 }
 
 #buttonC {
@@ -286,9 +287,14 @@ a {
     justify-content: space-around;
     display: flex;
     float: none;
-    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
 }
 
+.contactContainer {
+    padding-top: 100px;
+    height: 500px;
+    font-family: 'Raleway', sans-serif;
+}
 /* Animation */
 .anim-typewriter{
   animation: typewriter 4s steps(44) 1s 1 normal both,
