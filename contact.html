@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <title>Jessica Sulaiman</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="portfolio.css">
+
+</head>
+<body>
+<!-- Nav bar -->
+<div class="pink">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+        <img src="img/Artboard_contact2.png" alt="" class="center" id="banner">
+
+</div>
+<div class="beige"></div>
+
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4"></div>
+          <div class="col-sm-4">
+            <input type="text" class="form-control" value="jessica.sulaiman21@gmail.com" id="myInput">
+            <button  class="btn3" id="buttonC" onclick="myFunction()">Copy email to clipboard</button>
+            <p class="info">I'm located in Philadelphia, PA</p>
+            <p class="info">My Phone: 267-760-2031</p>
+            <div class="col-sm-4"></div>
+          </div>
+        </div>
+</div>
+
+
+  <div class="socialIcons">
+      <a href="https://www.linkedin.com/in/jessicamsulaiman/"><i class="fab fa-linkedin" id="icons"></i></a>
+      <a href="https://github.com/jessmeow21"><i class="fab fa-github" id="icons"></i></a>
+  </div>
+      <p class="last">Designed by Jessica Sulaiman ©2019</p>
+<div class="card-footer"></div>
+
+
+<script>
+    function myFunction() {
+      var copyText = document.getElementById("myInput");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999)
+      document.execCommand("copy");
+      alert("Copied the text: " + copyText.value);
+    }
+</script>
+    
+</body>
+</html>
