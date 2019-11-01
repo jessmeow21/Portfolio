@@ -330,3 +330,8 @@ a {
         max-width: 100%;
     }
 }
+
+.card-info-project{
+    line-height: 1.5;
+    text-align: center;
+}
