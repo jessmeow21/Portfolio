@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 .pink {
+    
     background-color: #f653a9;
     height: 500px;
     width: auto;
@@ -11,6 +16,7 @@
     background-attachment: fixed;
     background-position: center;
     background-position: 20% 100%; 
+    
    
 }
 .btn, .nav-link, .projectButton {
@@ -250,6 +256,8 @@ a {
 #banner {
     width: 800px;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 .center {
     display: block;
@@ -307,4 +315,18 @@ a {
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
+}
+
+@media screen and (max-width: 800px) {
+    .pink img {
+        flex:100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .pink img {
+        flex:100%;
+        max-width: 100%;
+    }
 }
