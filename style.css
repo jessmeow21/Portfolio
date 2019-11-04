@@ -16,7 +16,7 @@
     background-position: center;
     background-position: 20% 100%; 
 }
-.btn, .nav-link, .projectButton {
+.btn, .nav-link, .projectButton, .dropdown-item {
     background-color: black;
 
     color: white;
@@ -49,13 +49,14 @@
   }
 
   .dropdown-item:hover {
-    background-color: black;
-    color: white;
+    background-color:#fdc3b8;
+    color: black;
     font-family: 'Montserrat', sans-serif;
 }
 
   .dropdown-menu {
-    background-color:#fdc3b8;
+    background-color:black;
+    color: white;
     font-family: 'Montserrat', sans-serif;
   }
 
