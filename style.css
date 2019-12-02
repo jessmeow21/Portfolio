@@ -115,6 +115,7 @@ h1 {
 .aboutMe {
     text-align: center;
     line-height: 2rem;
+    font-size: large;
 }
 
 .lightPink {
